@@ -1,4 +1,3 @@
-BLACKFLIX
 BLACKFLIX es una red social que permite agregar post, se pueden buscar los publicados y añadir comentarios.
 Estructura del Proyecto
 •	index.html: Página principal que estructura el contenido del proyecto.
