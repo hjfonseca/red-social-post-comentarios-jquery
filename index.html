@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social Estilo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>BLACKFLIX</h1>
+        <a href="#" class="logo">
+            <img src="complementos/logo.png" alt="">
+        </a>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <section class="buscar">
+                <div class="buscar-post">
+                    <h2>Buscar Post</h2>
+                    <input type="text" id="searchPost" placeholder="Escribe para buscar por título">
+                </div>
+            </section>
+        </aside>
+
+        <main class="Ac1">
+            <section class="crearp">
+                <div class="crear-post">
+                    <h2>Crear Post</h2>
+                    <form id="postForm">
+                        <input type="text" id="titlep" placeholder="Título" required>
+                        <textarea name="description" id="description" placeholder="Descripción" required></textarea>
+                        <button type="submit">Crear Post</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <aside class="news">
+            <section class="post">
+                <div id="posts">
+                    <h2>Publicaciones</h2>
+                </div>
+            </section>
+        </aside>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+    <script src="js/posts.js"></script>
+    <script src="js/comments.js"></script>
+    <script src="js/main.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 Actividad 2. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
