@@ -7,7 +7,7 @@ Estructura del Proyecto
 •	js/main.js: Lógica principal del proyecto.
 •	js/posts.js: Gestor de publicaciones.
 Instrucciones para ejecutar
-1.	clonar el repositorio con el comando: git clone <URL_DEL_REPOSITORIO> y abrir el archivo index.html
+1.	clonar el repositorio con el comando: git clone https://github.com/hjfonseca/red-social-post-comentarios-jquery/tree/master y abrir el archivo index.html
 Integrantes
 •	Harvey Fonseca
 •	César Tamayo
